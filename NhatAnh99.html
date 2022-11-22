@@ -1,19 +1,4 @@
- @extends('admin_layout')
- @section('admin_content')
-
-<div class="content-box-header">
- <h1 align="center">Quản lý loại sản phẩm</h1>
-    <ul class="content-box-tabs">
-                            <?php
-                            $message = Session::get('message');
-                            if($message){
-                              echo '<span class="text-alert">',$message,'</span>';
-                              Session::put('message',null);
-                             }
-                              ?>
-        <h4><a href="{{URL::to('/add-loaisanpham')}}">Thêm loại sản phẩm</a></h4>
-    </ul>
-</div>
+Xin Chào Buổi Sáng
   <div class="main-content container-fluid">
           <div class="row">
             <div class="col-sm-12">
