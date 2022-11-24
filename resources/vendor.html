@@ -1,0 +1,10 @@
+Khi thêm lựa chọn -n thì có thể xác nhận file đã bị xóa. Thêm lựa chọn -f thì sẽ
+xóa file thực tế. Mặc định thì file được chỉ định là .gitignore sẽ không phải là
+đối tượng xóa, nhưng thêm lựa chọn -x thì cho dù là file được chỉ định là
+.gitignore thì cũng sẽ là đối tượng xóa. filepattern thì ngoài cách chỉ định tên
+file cách trực tiếp thì cũng có thể chỉ định bằng cách đính kèm thẻ đại diện
+kiểu như "*.txt". Khi mà chỉ định "." thì bao hàm luôn cả thư mục phụ (sub
+directory) bên trong có thể đăng ký trong index cho tất cả file. Khi thêm lựa
+chọn -p thì có thể đăng ký thay đổi chỉ 1 bộ phận của file muốn chỉnh sửa. Và
+nếu thêm lựa chọn -i thì có thể lựa chọn mang tính tương tác file đăng ký trong
+Index.
